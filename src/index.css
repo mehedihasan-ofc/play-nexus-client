@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Merriweather:wght@300;400;700;900&family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.my-container {
+    @apply max-w-7xl w-full mx-auto px-6
+}
+
+.btn-custom {
+    @apply font-medium transition duration-200 shadow-md md:mb-0 px-8 py-1 text-lg rounded-full border-transparent border-2 text-white bg-primary
+}
